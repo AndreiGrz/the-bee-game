@@ -25,7 +25,6 @@ document.addEventListener("DOMContentLoaded", () => {
             new QueenBee(),
             ...createBees(WorkerBee, 5),
             ...createBees(DroneBee, 8),
-            // ...createBees(TestBee, 8),
         ];
     }
 

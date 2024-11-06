@@ -34,9 +34,3 @@ class DroneBee extends Bee {
         super('Drone', 50, 12);
     }
 }
-
-// class TestBee extends Bee {
-//     constructor() {
-//         super('Test', 50, 4);
-//     }
-// }
