@@ -1,0 +1,72 @@
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: #f0f4f8;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.swarm-status {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fdfdfd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+
+.bee-status {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.bee-status.alive {
+    color: #32de84;
+}
+
+.bee-status.dead {
+    color: #E32636;
+    background-color: #e8566261;
+}
+
+.hit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #32de84;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(50, 222, 132, 0.3);
+
+}
+
+.message {
+    margin-top: 15px;
+    color: #E32636;
+    font-weight: bold;
+    font-size: 18px;
+}
