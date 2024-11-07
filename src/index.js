@@ -1,3 +1,5 @@
+// import { Bee, QueenBee, WorkerBee, DroneBee } from '../src/bee.js';
+
 document.addEventListener("DOMContentLoaded", () => {
     const playerName = prompt("Enter your player name:");
     while (!playerName || playerName === null) {

@@ -34,3 +34,6 @@ class DroneBee extends Bee {
         super('Drone', 50, 12);
     }
 }
+
+// export { Bee, QueenBee, WorkerBee, DroneBee };
+//uncomment export line to run tests from bee.test.js
