@@ -1,6 +1,11 @@
 {
+  "name": "the-bee-game",
+  "version": "1.0.0",
+  "type": "module",
   "devDependencies": {
-    "jasmine": "^5.4.0",
-    "jest": "^29.7.0"
+    "jasmine": "^4.0.0"
+  },
+  "scripts": {
+    "test": "jasmine"
   }
 }
